@@ -1,0 +1,69 @@
+.link {
+  height: 36px;
+  margin-top: 12px;
+  border-radius: 15px;
+  width: 120px;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: medium;
+}
+
+.B {
+  background-color: rgb(238, 203, 47);
+}
+
+.Form-dropdown {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.drpdn-item {
+  background-color: #16243f;
+  text-decoration: none;
+  color: whitesmoke;
+  height: 24px;
+  width: 145px;
+}
+
+.drpdn-item:hover {
+  text-decoration: solid;
+  font-weight: bold;
+  color: #2a81e4;
+}
+
+.header {
+  background-color: #16243f;
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  margin-top: 12px;
+  margin-right: 6px;
+  height: 36px;
+  width: 120px;
+  border-radius: 10px;
+  border-color: rgb(209, 66, 66);
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  background-color: red;
+}
+
+.logout:hover {
+  opacity: 0.9;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(218, 67, 90);
+}
+
+.img-logo {
+  justify-content: flex-start;
+  width: 100px;
+  height: 80px;
+  margin: 5px;
+}

@@ -1,0 +1,79 @@
+.Split {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+
+#splitbutton {
+  padding: 0px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #31078c;
+}
+
+li {
+  float: right;
+  border-left: 1px solid white;
+  height: 100%;
+}
+
+li a,
+#selfheading {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: hsl(227, 51%, 56%);
+  height: 100%;
+}
+
+#selfheading {
+  float: left;
+  padding-left: 800px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+button {
+  background-color: #31078c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+button:hover {
+  background-color: hsl(227, 51%, 56%);
+  border-color: #31078c;
+  border: 2px;
+}
+
+Form {
+  padding: 70px 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.selflabel {
+  font-size: 24px;
+}
+
+.selftextarea {
+  width: 100%;
+  resize: none;
+}
+
+.fields {
+  padding-bottom: 20px;
+}

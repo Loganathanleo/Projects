@@ -1,0 +1,48 @@
+.login-body {
+    background: rgb(25, 124, 219);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 124, 219, 1) 0%,
+      rgba(86, 233, 247, 1) 100%
+    );
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30%;
+  }
+  
+  .login-con {
+    background-color: white;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 50%;
+    margin-left: 27%;
+    border-radius: 20px;
+  }
+  
+  .items {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: x-large;
+    font-family: "Fira Sans", sans-serif;
+    padding-top: 10px;
+  }
+  
+  .btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border-color: #2a81e4;
+    background-color: #3388e8;
+    color: rgb(14, 13, 13);
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 0.6;
+    color: white;
+    box-shadow: 10px 10px 5px lightblue;
+  }
