@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Page Title</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="shortcut icon" href="assets/yug.png" type="image/x-icon">
+</head>
+
+
+<body>
+  <div id="header">
+    <div class="navbar">
+      <div class="logo">
+        <img src="assets/yug1.png" alt="Logo" />
+        <h2>YUGAVRITTAH</h2>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="aboutfold/about.html">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#f&q">F&Q</a></li>
+        </ul>
+        <div class="toggle-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+    <div class="mobile-menu">
+      <div class="close-button">&times;</div>
+      <ul class="mobile-nav-links">
+        <li><a href="#">HOME</a></li>
+        <li><a href="aboutfold/about.html">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#f&q">F&Q</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="placer">
+  </div>
+  <section class="hero">
+    <div class="plates">
+      <h3>NUMBER OF PLATES SERVED </h3>
+      <div class="counter" id="counter">0</div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/hero.jpeg" alt="hero">
+    </div>
+
+    <div class="donate" id="donatebox">
+      <div class="ask">
+        <img src="assets/yug.png" alt="logo">
+        <p>Yugavrittah Step against starvation</p>
+      </div>
+      <button type="button" id="join">Donate</button>
+    </div>
+    <div class="donateform" id="donatefor">
+      <form action="" method="POST" class="formdonate">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+
+        <div class="ischeck">
+          <input type="checkbox" id="whatsapp" name="whatsapp">
+          do not have same WhatsApp Number
+        </div>
+
+
+        <label for="alternateNumber" id="showalter" style="display: none;">Alternate Number:</label>
+        <input type="tel" id="alternateNumber" name="alternateNumber" style="display: none;">
+
+        <label for="location">Address:</label>
+        <input type="text" id="location" name="location">
+
+        <label>How long ago the food  was prepared?</label>
+        <div class="ischeck">
+          <input type="radio" id="preparationTime5" name="preparationTime" value="4">
+          <label for="preparationTime5">5 hours</label>
+        </div>
+        <div class="ischeck">
+          <input type="radio" d="preparationTime4" name="preparationTime" value="3">
+          <label for="preparationTime">4 hours</label>
+        </div>
+        <div class="ischeck">
+          <input type="radio" d="preparationTime3" name="preparationTime" value="2">
+          <label for="preparationTime">3 hours</label>
+        </div>
+        <div class="ischeck">
+          <input type="radio" d="preparationTime2" name="preparationTime" value="1">
+          <label for="preparationTime">2 hour</label>
+        </div>
+
+        <label for="peopleCount">Food available for approximate people:</label>
+        <input type="number" id="peopleCount" name="peopleCount">
+
+        <input type="submit" value="Donate">
+      </form>
+
+    </div>
+  </section>
+  <div id="video-carousel">
+    <h1>TESTIMONIALS</h1>
+    <div class="carousel-controls">
+      <button id="prev-slide">&#8249;</button>
+      <button id="next-slide">&#8250;</button>
+    </div>
+    <div class="video-slides">
+      <div class="video-slide active">
+        <video class="videoactive">
+          <source src="assets/video1.mp4" type="video/mp4">
+        </video>
+        <p class="video-caption"> Dr.K.Geetha Vice Principal, Rathinam Technical Campus</p>
+      </div>
+      <div class="video-slide">
+        <video class="videoactive">
+          <source src="assets/video2.mp4" type="video/mp4">
+        </video>
+        <p class="video-caption">Yugavrittah Step against starvation</p>
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <button class="indicator active"></button>
+      <button class="indicator active"></button>
+    </div>
+  </div>
+  <section class="additional-info">
+    <div class="info">
+      <img src="assets/SDG-Logo.png" alt="Logo">
+      <h2>Rathinam SDG Hub</h2>
+      <p>The Rathinam SDG Hub is a project led by young people, encouraging college students to contribute to the global
+        effort for the 2030 Agenda. Through the SDG Hub Program, student volunteers become champions for sustainable
+        development in their communities. The program recruits students for each goal, led by student leaders, who
+        create training materials, supervise activities, and find innovative solutions to local issues. The aim is to
+        empower students to make a positive impact and work towards a more sustainable future.</p>
+      <a href="http://sdg-hub.rathinamtechnicalcampus.com/" class="read-more">Read More</a>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-details">
+      <div>
+        <h2>Contact Us</h2>
+        <p><span class="label">Phone:</span><br><span class="value">+91 93849 47996</span></p>
+        <p><span class="label">Email:</span><br><span class="value">Onthepath2change@gmail.com</span></p>
+        <p><span class="label">Instagram:</span><br><span class="value">rathinam_yugavrittah</span></p>
+      </div>
+      <a href="#" class="read-more">See More</a>
+    </div>
+    <div class="comment-form">
+      <h3>Leave a Comment</h3>
+      <form action="/submit_comment" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="contactname" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="contactemail" name="email" required>
+        </div>
+        <div>
+          <label for="comment">Comment:</label>
+          <textarea id="comment" name="comment" rows="4" cols="50" required></textarea>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+  <section id="f&q" class="fandq">
+    <div class="container">
+      <h1>Frequently Asked Questions</h1>
+      <div class="card">
+        <div class="card-header" onclick="toggleAnswer(answer1)">
+          Q1:How can I Identify the volunteer?
+        </div>
+        <div class="card-body" id="answer1">
+         
+          It's a student initiative  process in Rathinam college.You can identify
+           the volunteers by referencing their student ID cards.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" onclick="toggleAnswer(answer2)">
+          Q2: Which state  of foods are generally accepted for Donation?
+        </div>
+        <div class="card-body" id="answer2">
+           
+        suggest  donors, it is crucial to ensure that the donated items are in good quality 
+        and free from any signs of contamination, including fly infestation.
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" onclick="toggleAnswer(answer3)">
+          Q3: How can you contribute towards yugavrittah ?
+        </div>
+        <div class="card-body" id="answer3">
+          To contribute with Yugavrittah, begin by considering how you can
+           help those in need. Emphasize the importance of providing
+           food to society. Join our initiative by spreading the word 
+           about Yugavrittah, encouraging others to donate food and avoid wastage.
+           Your support is crucial for creating a positive impact and assisting those facing food shortages.
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="aboutfold/about.html">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>&copy;2023 Yugavitrah | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
